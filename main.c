@@ -10,7 +10,14 @@
 #include <stdio.h>
 // GLOBAL VARIABLES ----------------------------------------------------------|
 
+struct age_data {
+	uint8_t day;
+	uint8_t month;
+	uint16_t year;
+	uint8_t age;
+};
 
+struct age_data my_age;
 
 // FUNCTION DECLARATIONS -----------------------------------------------------|
 
